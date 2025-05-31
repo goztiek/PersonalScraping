@@ -16,8 +16,8 @@
 function injectSteamReviewInfo(previewDiv, reviewDesc, reviewCount) {
     // Construct HTML snippet
     const reviewHTML = `
-        <br><b>🧠 Note:</b> ${reviewDesc}
-        <br><b>🗳️ Total reviews:</b> ${reviewCount}
+        <br><b>Note:</b> ${reviewDesc}
+        <br><b>Total reviews:</b> ${reviewCount}
     `;
 
     // Inject at the bottom of preview text
